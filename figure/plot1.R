@@ -2,11 +2,11 @@
 ## Included code to download data and unzip 
 ## Uncomment the following code if you want to download and unzip (assumes Rstudio in MAC)
 
-dataset_url<- "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip"
-download.file(dataset_url, "exdata-data.zip",method="curl")
-dateDownloaded <- date()
-unzip("exdata-data.zip", exdir = "./exdata-data")
-list.files("./exdata-data")
+#dataset_url<- "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip"
+#download.file(dataset_url, "exdata-data.zip",method="curl")
+#dateDownloaded <- date()
+#unzip("exdata-data.zip", exdir = "./exdata-data")
+#list.files("./exdata-data")
 
 
 ## Read data using read.table
